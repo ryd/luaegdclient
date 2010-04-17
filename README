@@ -1,0 +1,15 @@
+This is a client library for EGD protocol over tcp in lua
+
+It basicly support to connect to egd daemon and send requests.
+
+Protocol can be found here: 
+http://miketeo.net/wp/index.php/2009/06/09/egd-entropy-gathering-daemon-client-protocol.html
+
+This module require luasocket to open tcp connection
+
+The ekeyd.conf contains an example configuration running with Simtek entropy key. More info
+can be found here: http://www.entropykey.co.uk/
+
+Send feedback to jens at nons dot de
+
+
